@@ -1,1 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+
+$font-1: normal normal normal 18px/23px Source Sans Pro;
+$font-1-bold: normal normal bold 18px/23px Source Sans Pro;
+
+$font-2: normal normal normal 16px/20px Source Sans Pro;
+$font-2-bold: normal normal bold 16px/20px Source Sans Pro;
+
+$font-3: normal normal normal 15px/22px Source Sans Pro;
+$font-3-bold: normal normal bold 15px/22px Source Sans Pro;
+
+$font-4: normal normal normal 13px/17px Source Sans Pro;
+$font-4-bold: normal normal bold 13px/17px Source Sans Pro;
+
+$font-5: normal normal normal 15px/19px Source Sans Pro;
+$font-5-bold: normal normal bold 15px/19px Source Sans Pro;
+
+$font-6: normal normal normal 18px/22px Source Sans Pro;
+$font-6-bold: normal normal bold 18px/22px Source Sans Pro;
+
+$font-7: normal normal normal 24px/13px Source Sans Pro;
+$font-7-bold: normal normal bold 24px/13px Source Sans Pro;
+
+$font-8: normal normal normal 35px/15px Source Sans Pro;
+$font-8-bold: normal normal bold 35px/15px Source Sans Pro;
+
+$font-9: normal normal normal 13px/30px Source Sans Pro;
+$font-9-bold: normal normal bold 13px/30px Source Sans Pro;
+
+$font-custom-600_18-23: normal normal 600 18px/13px Source Sans Pro;
+$font-custom-600_13-30: normal normal 600 13px/30px Source Sans Pro;
+
+$font-custom-600_15-17: normal normal 600 15px/17px Source Sans Pro;
+$font-custom-600_15-13: normal normal 600 15px/13px Source Sans Pro;
+$font-custom-600_16-13: normal normal 600 16px/13px Source Sans Pro;
+$font-custom-600_15-15: normal normal 600 15px/15px Source Sans Pro;
+
+$font-custom-300_20-30: normal normal 300 20px/30px Source Sans Pro;
+$font-custom-300_24-30: normal normal 300 24px/30px Source Sans Pro;
+
+$border-solid-black: 1px solid black;
+$border-solid-science-blue: 1px solid $color-science-blue;
+$border-solid-porcelain-2: 1px solid $color-porcelain-2;
+$border-dashed-gray-4: 1px dashed $color-gray-4;
+$border-2px-solid-porcelain-1: 2px solid $color-porcelain-1;

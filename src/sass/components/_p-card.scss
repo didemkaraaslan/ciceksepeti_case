@@ -3,7 +3,7 @@
     display: inline-block;
     content: "";
     width: 100%;
-    border: 2px solid #edf1f2;
+    border: $border-2px-solid-porcelain-1;
   }
   &__list {
     list-style-type: none;
@@ -19,8 +19,8 @@
     justify-content: space-evenly;
     width: 272px;
     height: 400px;
-    background: #ffffff 0% 0% no-repeat padding-box;
-    border: 1px solid #e2e7e9;
+    background: $bg-white;
+    border: $border-solid-porcelain-2;
     border-radius: 10px;
     padding-top: 1.5rem;
     padding-right: 1.5rem;
@@ -36,31 +36,27 @@
   }
 
   &__title {
-    font: normal normal 600 15px/17px Source Sans Pro;
-    letter-spacing: 0px;
-    color: #555555;
+    font: $font-custom-600_15-17;
+    color: $color-gray-1;
   }
 
   &__subtitle {
-    font: normal normal 600 15px/13px Source Sans Pro;
-    letter-spacing: 0px;
-    color: #51b549;
+    font: $font-custom-600_15-13;
+    color: $color-apple-1;
   }
 
   &__price {
-    font: normal normal 600 16px/13px Source Sans Pro;
-    letter-spacing: 0px;
-    color: #000000;
+    font: $font-custom-600_16-13;
+    color: $color-black;
   }
 
   &__button {
     width: 242px;
     height: 40px;
-    border: 1px solid #044dc3;
+    border: $border-solid-science-blue;
     border-radius: 22px;
-    font: normal normal 600 15px/15px Source Sans Pro;
-    letter-spacing: 0px;
-    color: #044dc3;
+    font: $font-custom-600_15-15;
+    color: $color-science-blue;
     background-color: $color-white;
   }
 }

@@ -8,9 +8,8 @@
   }
 
   &__item {
-    font: normal normal normal 13px/30px Source Sans Pro;
-    letter-spacing: 0px;
-    color: #555555;
+    font: $font-9;
+    color: $color-gray-1;
 
     &:not(:last-child):after {
       content: " > ";
@@ -21,7 +20,7 @@
     }
 
     &:last-child {
-      color: #51b549;
+      color: $color-apple-1;
     }
   }
 }

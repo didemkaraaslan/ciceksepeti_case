@@ -1,6 +1,6 @@
 .footer {
   height: 103.4rem;
-  background: #f2f2f2 0% 0% no-repeat padding-box;
+  background: $bg-footer;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,9 +8,9 @@
 }
 
 .our-apps {
-  width: 1480px;
+  width: 148rem;
   height: 222px;
-  background: #ffffff 0% 0% no-repeat padding-box;
+  background: $bg-white;
   border-radius: 111px;
   margin-top: 14.6rem;
 
@@ -18,17 +18,8 @@
   justify-content: center;
   align-items: flex-end;
 
-  &__left {
-  }
-
   &__right {
     align-self: center;
-  }
-
-  &__ content {
-  }
-
-  &__image {
   }
 
   &__qrcode {
@@ -45,15 +36,13 @@
   }
 
   &__qrcode-title {
-    font: normal normal bold 18px/23px Source Sans Pro;
-    letter-spacing: 0px;
-    color: #000000;
+    font: $font-1-bold;
+    color: $color-black;
   }
 
   &__qrcode-subtitle {
-    font: normal normal normal 16px/20px Source Sans Pro;
-    letter-spacing: 0px;
-    color: #000000;
+    font: $font-2;
+    color: $color-black;
   }
 
   &__links {
@@ -69,14 +58,12 @@
     &--googleplay {
       width: 175px;
       height: 52px;
-      background: transparent url("../../images/icon_googleplay.svg") 0% 0%
-        no-repeat padding-box;
+      background: $bg-googleplay;
     }
     &--appstore {
       width: 200px;
       height: 52px;
-      background: transparent url("../../images/icon_appstore.svg") 0% 0%
-        no-repeat padding-box;
+      background: $bg-appstore;
     }
   }
 }
@@ -84,9 +71,8 @@
 .description {
   text-align: center;
   width: 1320px;
-  font: normal normal normal 15px/22px Source Sans Pro;
-  letter-spacing: 0px;
-  color: #000000;
+  font: $font-3;
+  color: $color-black;
   margin-top: 10rem;
 }
 
@@ -98,10 +84,9 @@
   align-items: center;
   width: 100%;
   height: 60px;
-  background: #e6e6e6 0% 0% no-repeat padding-box;
-  font: normal normal normal 13px/17px Source Sans Pro;
-  letter-spacing: 0px;
-  color: #000000;
+  background: $bg-copyright;
+  font: $font-4;
+  color: $color-black;
 }
 
 .box {
@@ -118,12 +103,12 @@
       height: 266px;
       position: absolute;
       z-index: 1;
-      border-right: 1px solid black;
+      border-right: $border-solid-black;
       display: block;
       top: 0%;
       left: 120%;
       height: 100%;
-      border-right: 1px dashed #9b9b9b;
+      border-right: $border-dashed-gray-4;
     }
   }
 
@@ -135,9 +120,8 @@
     max-width: 35rem;
     height: 19px;
     text-align: left;
-    font: normal normal normal 15px/22px Source Sans Pro;
-    letter-spacing: 0px;
-    color: #000000;
+    font: $font-3;
+    color: $color-black;
   }
 }
 
@@ -152,29 +136,24 @@
     height: 27px;
     margin-right: 3.1rem;
     &--facebook {
-      background: transparent url("../../images/facebook.svg") 0% 0% no-repeat
-        padding-box;
+      background: $bg-facebook;
     }
 
     &--twitter {
-      background: transparent url("../../images/twitter.svg") 0% 0% no-repeat
-        padding-box;
+      background: $bg-twitter;
     }
 
     &--instagram {
-      background: transparent url("../../images/instagram.svg") 0% 0% no-repeat
-        padding-box;
+      background: $bg-instagram;
     }
 
     &--youtube {
       width: 35px;
-      background: transparent url("../../images/youtube.svg") 0% 0% no-repeat
-        padding-box;
+      background: $bg-youtube;
     }
     &--blog {
       width: 35px;
-      background: transparent url("../../images/blog.svg") 0% 0% no-repeat
-        padding-box;
+      background: $bg-blog;
     }
   }
 }
@@ -192,13 +171,12 @@
   &__submenu {
     list-style-type: none;
     &__item {
-      font: normal normal normal 15px/19px Source Sans Pro;
-      letter-spacing: 0px;
-      color: #000000;
+      font: $font-5;
+      color: $color-black;
       margin-bottom: 0.9rem;
       &--header {
-        font: normal normal normal 18px/23px Source Sans Pro;
-        color: #044dc3;
+        font: $font-1;
+        color: $color-science-blue;
         margin-bottom: 1rem;
       }
     }

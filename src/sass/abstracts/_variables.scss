@@ -27,3 +27,24 @@ $color-cinnabar-2: #e64e41;
 $color-zumthor: #e8f1ff;
 $color-fairpink: #ffeae8;
 $color-peachcream: #ffede0;
+
+$bg-banner: transparent url("../../images/banner.png");
+
+$bg-footer: $color-concrete 0% 0% no-repeat padding-box;
+$bg-copyright: $color-mercury 0% 0% no-repeat padding-box;
+$bg-white: $color-white 0% 0% no-repeat padding-box;
+
+$bg-googleplay: transparent url("../../images/icon_googleplay.svg") 0% 0%
+  no-repeat padding-box;
+$bg-appstore: transparent url("../../images/icon_appstore.svg") 0% 0% no-repeat
+  padding-box;
+
+$bg-facebook: transparent url("../../images/facebook.svg") 0% 0% no-repeat
+  padding-box;
+$bg-twitter: transparent url("../../images/twitter.svg") 0% 0% no-repeat
+  padding-box;
+$bg-instagram: transparent url("../../images/instagram.svg") 0% 0% no-repeat
+  padding-box;
+$bg-youtube: transparent url("../../images/youtube.svg") 0% 0% no-repeat
+  padding-box;
+$bg-blog: transparent url("../../images/blog.svg") 0% 0% no-repeat padding-box;
