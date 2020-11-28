@@ -256,6 +256,107 @@ const App = () => {
           </div>
         </div>
 
+        <div className="box">
+          <div className="box__left">
+            <img src={logo} alt="çiçeksepeti logo" className="box__logo" />
+            <ul className="social-menu">
+              <li className="social-menu__item social-menu__item--facebook"></li>
+              <li className="social-menu__item social-menu__item--twitter"></li>
+              <li className="social-menu__item social-menu__item--instagram"></li>
+              <li className="social-menu__item social-menu__item--youtube"></li>
+              <li className="social-menu__item social-menu__item--blog"></li>
+            </ul>
+
+            <p className="box__description">
+              CicekSepeti.com olarak kişisel verilerinizin gizliliğini
+              önemsiyoruz. 6698 sayılı Kişisel Verilerin Korunması Kanunu
+              kapsamında oluşturduğumuz aydınlatma metnine buradan
+              ulaşabilirsiniz.
+            </p>
+          </div>
+          <div className="box__right">
+            <ul className="footer-menu">
+              <li className="footer-menu__item">
+                <ul className="footer-menu__submenu">
+                  <li className="footer-menu__submenu_item footer-menu__submenu_item--header">
+                    Faydalı Bilgiler
+                  </li>
+                  <li className="footer-menu__submenu__item">Çiçek Bakımı</li>
+                  <li className="footer-menu__submenu__item">
+                    Çiçek Eşliğinde Notlar
+                  </li>
+                  <li className="footer-menu__submenu__item">
+                    Çiçek Anlamları
+                  </li>
+                  <li className="footer-menu__submenu__item">Özel Günler</li>
+                  <li className="footer-menu__submenu__item">
+                    Mevsimlere Göre Çiçekler
+                  </li>
+                  <li className="footer-menu__submenu__item">
+                    BonnyFood Saklama Koşulları
+                  </li>
+                  <li className="footer-menu__submenu__item">Site Haritası</li>
+                </ul>
+              </li>
+
+              <li className="footer-menu__item">
+                <ul className="footer-menu__submenu">
+                  <li className="footer-menu__submenu_item footer-menu__submenu_item--header">
+                    Kurumsal
+                  </li>
+                  <li className="footer-menu__submenu__item">Hakkımızda</li>
+                  <li className="footer-menu__submenu__item">Kariyer</li>
+                  <li className="footer-menu__submenu__item">
+                    ÇiçekSepeti'nde Satış Yap
+                  </li>
+                  <li className="footer-menu__submenu__item">
+                    Kurumsal Müşterilerimiz
+                  </li>
+                  <li className="footer-menu__submenu__item">Reklamlarımız</li>
+                  <li className="footer-menu__submenu__item">Basında Biz</li>
+                  <li className="footer-menu__submenu__item">Kampanyalar</li>
+                  <li className="footer-menu__submenu__item">Vizyonumuz</li>
+                </ul>
+              </li>
+
+              <li className="footer-menu__item">
+                <ul className="footer-menu__submenu">
+                  <li className="footer-menu__submenu_item footer-menu__submenu_item--header">
+                    İletişim
+                  </li>
+                  <li className="footer-menu__submenu__item">Bize Ulaşın</li>
+                  <li className="footer-menu__submenu__item">
+                    Sıkça Sorulan Sorular
+                  </li>
+                </ul>
+              </li>
+
+              <li className="footer-menu__item">
+                <ul className="footer-menu__submenu">
+                  <li className="footer-menu__submenu_item footer-menu__submenu_item--header">
+                    Gizlilik Sözleşmesi
+                  </li>
+                  <li className="footer-menu__submenu__item">
+                    Mesafeli Satış Sözleşmesi
+                  </li>
+                  <li className="footer-menu__submenu__item">
+                    Bilgi Toplumu Hizmetleri
+                  </li>
+                  <li className="footer-menu__submenu__item">
+                    Gizlilik Sözleşmesi
+                  </li>
+                  <li className="footer-menu__submenu__item">
+                    Ödeme Seçenekleri
+                  </li>
+                  <li className="footer-menu__submenu__item">
+                    Hesap Bilgileri
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+
         <div className="description">
           Türkiyenin en büyük online çiçek sitesi ÇiçekSepeti ile sevdiklerinizi
           mutlu etmek çok kolay! Çiçek göndermenin ve “Mutlu etmenin adresi”

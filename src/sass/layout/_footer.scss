@@ -1,5 +1,5 @@
 .footer {
-  height: 80rem;
+  height: 103.4rem;
   background: #f2f2f2 0% 0% no-repeat padding-box;
   display: flex;
   flex-direction: column;
@@ -87,7 +87,7 @@
   font: normal normal normal 15px/22px Source Sans Pro;
   letter-spacing: 0px;
   color: #000000;
-  margin-top: 22rem;
+  margin-top: 10rem;
 }
 
 .copyright {
@@ -102,4 +102,96 @@
   font: normal normal normal 13px/17px Source Sans Pro;
   letter-spacing: 0px;
   color: #000000;
+}
+
+.box {
+  height: 25rem;
+  margin-top: 9.6rem;
+  width: 80%;
+  background-color: lawngreen;
+  display: flex;
+
+  &__left {
+    position: relative;
+    margin-left: 10rem;
+    &::after {
+      content: " ";
+      height: 266px;
+      position: absolute;
+      z-index: 1;
+      border-right: 1px solid black;
+      display: block;
+      top: 0%;
+      left: 120%;
+      height: 100%;
+      border-right: 1px dashed #9b9b9b;
+    }
+  }
+
+  &__right {
+    margin-left: 15rem;
+  }
+
+  &__logo {
+  }
+
+  &__description {
+    max-width: 35rem;
+    height: 19px;
+    text-align: left;
+    font: normal normal normal 15px/22px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #000000;
+  }
+}
+
+.social-menu {
+  margin-top: 2.8rem;
+  margin-bottom: 2.1rem;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  &__item {
+    width: 27px;
+    height: 27px;
+    margin-right: 3.1rem;
+    &--facebook {
+      background: transparent url("../../images/facebook.svg") 0% 0% no-repeat
+        padding-box;
+    }
+
+    &--twitter {
+      background: transparent url("../../images/twitter.svg") 0% 0% no-repeat
+        padding-box;
+    }
+
+    &--instagram {
+      background: transparent url("../../images/instagram.svg") 0% 0% no-repeat
+        padding-box;
+    }
+
+    &--youtube {
+      width: 35px;
+      background: transparent url("../../images/youtube.svg") 0% 0% no-repeat
+        padding-box;
+    }
+    &--blog {
+      width: 35px;
+      background: transparent url("../../images/blog.svg") 0% 0% no-repeat
+        padding-box;
+    }
+  }
+}
+
+.footer-menu {
+  display: flex;
+  &__item {
+  }
+
+  &__submenu {
+    &__item {
+      &--header {
+      }
+    }
+  }
 }
