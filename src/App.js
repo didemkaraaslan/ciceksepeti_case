@@ -278,7 +278,7 @@ const App = () => {
             <ul className="footer-menu">
               <li className="footer-menu__item">
                 <ul className="footer-menu__submenu">
-                  <li className="footer-menu__submenu_item footer-menu__submenu_item--header">
+                  <li className="footer-menu__submenu__item footer-menu__submenu__item--header">
                     Faydalı Bilgiler
                   </li>
                   <li className="footer-menu__submenu__item">Çiçek Bakımı</li>
@@ -301,7 +301,7 @@ const App = () => {
 
               <li className="footer-menu__item">
                 <ul className="footer-menu__submenu">
-                  <li className="footer-menu__submenu_item footer-menu__submenu_item--header">
+                  <li className="footer-menu__submenu__item footer-menu__submenu__item--header">
                     Kurumsal
                   </li>
                   <li className="footer-menu__submenu__item">Hakkımızda</li>
@@ -321,7 +321,7 @@ const App = () => {
 
               <li className="footer-menu__item">
                 <ul className="footer-menu__submenu">
-                  <li className="footer-menu__submenu_item footer-menu__submenu_item--header">
+                  <li className="footer-menu__submenu__item footer-menu__submenu__item--header">
                     İletişim
                   </li>
                   <li className="footer-menu__submenu__item">Bize Ulaşın</li>
@@ -333,7 +333,7 @@ const App = () => {
 
               <li className="footer-menu__item">
                 <ul className="footer-menu__submenu">
-                  <li className="footer-menu__submenu_item footer-menu__submenu_item--header">
+                  <li className="footer-menu__submenu__item footer-menu__submenu__item--header">
                     Gizlilik Sözleşmesi
                   </li>
                   <li className="footer-menu__submenu__item">
