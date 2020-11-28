@@ -1,11 +1,92 @@
 import React from "react";
 import logo from "./images/logo.svg";
+import Product from "./components/Product";
 import SearchIcon from "./images/icon_search.svg";
 import BasketIcon from "./images/icon_basket.svg";
 import MenuIcon from "./images/icon_menu.svg";
 import LeafIcon from "./images/icon_leaf.svg";
 import product1 from "./images/product1.png";
 import product1Large from "./images/product1@2x.png";
+import discount1 from "./images/discount1.png";
+import discount1Large from "./images/discount1@2x.png";
+import discount2 from "./images/discount2.png";
+import discount2Large from "./images/discount2@2x.png";
+import discount3 from "./images/discount3.png";
+import discount3Large from "./images/discount3@2x.png";
+
+const products = [
+  {
+    imageX: product1,
+    image2X: product1Large,
+    name: "Z6 Akıllı Saat Kameralı Konuşma Garantili Sim Kartlı Bluetooth",
+    freeDelivery: true,
+    price: "399,90",
+  },
+  {
+    imageX: product1,
+    image2X: product1Large,
+    name: "Calvin Klein Euphoria EDP 100 ml Kadın Parfüm",
+    freeDelivery: false,
+    price: "145,61",
+  },
+  {
+    imageX: product1,
+    image2X: product1Large,
+    name: "Gold Çizgili Vazoda 2 Dal Orkide Çiçeği",
+    freeDelivery: true,
+    price: "249,90",
+  },
+  {
+    imageX: product1,
+    image2X: product1Large,
+    name: "925 Ayar Gümüş Çeyreklik Bileklik (Y)",
+    freeDelivery: false,
+    price: "329,90",
+  },
+  {
+    imageX: product1,
+    image2X: product1Large,
+    name:
+      "Sailor SD-3160 Siyah Dağcı Seyehat Sırt Çantası 55 LT Outdoor-Trekking",
+    freeDelivery: true,
+    price: "499,90",
+  },
+  {
+    imageX: product1,
+    image2X: product1Large,
+    name: "Büyük Boy Metal Osmanlı Bizans Satranç Takımı Parlak ve Cev..",
+    freeDelivery: true,
+    price: "19,90",
+  },
+  {
+    imageX: product1,
+    image2X: product1Large,
+    name: "130 Cm Papyonlu Büyük Ayıcı (%100 Yerli)",
+    freeDelivery: true,
+    price: "89,90",
+  },
+  {
+    imageX: product1,
+    image2X: product1Large,
+    name: "925 Ayar Gümüş Dualı İsimli Nazar İgnesi",
+    freeDelivery: true,
+    price: "29,90",
+  },
+  {
+    imageX: product1,
+    image2X: product1Large,
+    name: "Özel Tatlar Çikolata Kutusu 300 gr",
+    freeDelivery: true,
+    price: "59,90",
+  },
+  {
+    imageX: product1,
+    image2X: product1Large,
+    name: "Kucak Dolusu Aşk 25 Kırmızı Gül Buketi",
+    freeDelivery: false,
+    price: "199,90",
+  },
+];
 
 const App = () => {
   return (
@@ -81,30 +162,53 @@ const App = () => {
 
         <div className="p-card">
           <ul className="p-card__list">
-            <li className="p-card__item">
-              <picture className="p-card__picture">
-                <img srcSet={product1} alt="Product 1" src={product1} />
-              </picture>
+            {products.map((product) => (
+              <Product {...product} />
+            ))}
+          </ul>
+        </div>
 
-              <p className="p-card__title">
-                Z6 Akıllı Saat Kameralı Konuşma Garantili Sim Kartlı Bluetooth
-              </p>
-              <p className="p-card__subtitle">Ücretsiz Teslimat</p>
-              <p className="p-card__price">399,90 TL</p>
-              <button className="p-card__button">Sepete Ekle</button>
+        <div className="discount">
+          <ul className="discount__list">
+            <li className="discount__item">
+              <div className="discount__container">
+                <img src={discount1} alt="" className="discount__image" />
+                <div className="discount__content">
+                  <p className="discount__title">
+                    75 TL Üzerine Teslimat Ücreti Bizden
+                  </p>
+                  <a href="#" className="discount__link">
+                    Detaylı Bilgi
+                  </a>
+                </div>
+              </div>
             </li>
 
-            <li className="p-card__item">
-              <picture className="p-card__picture">
-                <img srcSet={product1} alt="Product 1" src={product1} />
-              </picture>
-
-              <p className="p-card__title">
-                Z6 Akıllı Saat Kameralı Konuşma Garantili Sim Kartlı Bluetooth
-              </p>
-              <p className="p-card__subtitle">Ücretsiz Teslimat</p>
-              <p className="p-card__price">399,90 TL</p>
-              <button className="p-card__button">Sepete Ekle</button>
+            <li className="discount__item">
+              <div className="discount__container">
+                <img src={discount2} alt="" className="discount__image" />
+                <div className="discount__content">
+                  <p className="discount__title">
+                    75 TL Üzerine Teslimat Ücreti Bizden
+                  </p>
+                  <a href="#" className="discount__link">
+                    Detaylı Bilgi
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li className="discount__item">
+              <div className="discount__container">
+                <img src={discount3} alt="" className="discount__image" />
+                <div className="discount__content">
+                  <p className="discount__title">
+                    75 TL Üzerine Teslimat Ücreti Bizden
+                  </p>
+                  <a href="#" className="discount__link">
+                    Detaylı Bilgi
+                  </a>
+                </div>
+              </div>
             </li>
           </ul>
         </div>

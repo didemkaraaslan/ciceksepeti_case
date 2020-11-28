@@ -1,8 +1,15 @@
 .p-card {
+  &::after {
+    display: inline-block;
+    content: "";
+    width: 100%;
+    border: 2px solid #edf1f2;
+  }
   &__list {
     list-style-type: none;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
   }
 
   &__item {
