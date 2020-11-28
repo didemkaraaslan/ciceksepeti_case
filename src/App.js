@@ -1,10 +1,14 @@
 import React from "react";
 import logo from "./images/logo.svg";
+// components
 import Product from "./components/Product";
+// svg icons
 import SearchIcon from "./images/icon_search.svg";
 import BasketIcon from "./images/icon_basket.svg";
 import MenuIcon from "./images/icon_menu.svg";
 import LeafIcon from "./images/icon_leaf.svg";
+
+// png images
 import product1 from "./images/product1.png";
 import product1Large from "./images/product1@2x.png";
 import discount1 from "./images/discount1.png";
@@ -13,6 +17,10 @@ import discount2 from "./images/discount2.png";
 import discount2Large from "./images/discount2@2x.png";
 import discount3 from "./images/discount3.png";
 import discount3Large from "./images/discount3@2x.png";
+import phoneImage from "./images/our_apps.png";
+import phoneImageLarge from "./images/our_apps@2x.png";
+import code from "./images/qrcode.png";
+import codeLarge from "./images/qrcode@2x.png";
 
 const products = [
   {
@@ -214,7 +222,39 @@ const App = () => {
         </div>
       </div>
 
-      <footer className="footer"></footer>
+      <footer className="footer">
+        <div className="our-apps">
+          <div className="our-apps__left">
+            <img
+              src={phoneImage}
+              alt="Phone Image"
+              className="our-apps__image"
+            />
+          </div>
+          <div className="our-apps__right">
+            <div className="our-apps__qrcode">
+              <img
+                src={code}
+                alt="QR Code"
+                className="our-apps__qrcode-image"
+              />
+              <div className="our-apps__content">
+                <p className="our-apps__qrcode-title">
+                  Çiçek Sepeti Mobil Uygulamayı İndirin{" "}
+                </p>
+                <p className="our-apps__qrcode-subtitle">
+                  Mobil Uygulamayı QR Kod ile İndirin
+                </p>
+              </div>
+            </div>
+
+            <ul className="our-apps__links">
+              <li className="our-apps__link our-apps__link--googleplay" />
+              <li className="our-apps__link our-apps__link--appstore" />
+            </ul>
+          </div>
+        </div>
+      </footer>
     </>
   );
 };
