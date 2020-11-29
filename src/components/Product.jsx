@@ -4,6 +4,7 @@ const Product = ({ imageX, image2X, name, freeDelivery, price }) => {
   return (
     <li className="p-card__item">
       <picture className="p-card__picture">
+        <source srcset={`${imageX}, ${image2X} 2x"`} />
         <img srcSet={imageX} alt="Product" src={imageX} />
       </picture>
 

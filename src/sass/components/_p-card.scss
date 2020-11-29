@@ -27,6 +27,24 @@
     padding-left: 1.5rem;
     margin-right: 3rem;
     margin-bottom: 3rem;
+
+    @media only screen and (max-width: 1600px) {
+      margin-right: 7rem;
+    }
+
+    @media only screen and (max-width: 1398px) {
+      margin-right: 3.5rem;
+    }
+
+    @media only screen and (max-width: 1294px) {
+      margin-right: 2rem;
+    }
+
+    @media only screen and (max-width: 662px) {
+      margin-right: 0;
+      margin-bottom: 3.5rem;
+      width: 100%;
+    }
   }
 
   &__picture {

@@ -3,6 +3,34 @@
   max-width: 170rem;
   min-height: 40rem;
   margin: 1rem 1rem 1rem 20rem;
+
+  @media only screen and (max-width: 1771px) {
+    margin: 1rem 1rem 1rem 15rem;
+  }
+
+  @media only screen and (max-width: 1674px) {
+    margin: 1rem 1rem 1rem 10rem;
+  }
+
+  @media only screen and (max-width: 1522px) {
+    align-items: center;
+  }
+
+  @media only screen and (max-width: 1172px) {
+    min-height: 310rem;
+  }
+
+  @media only screen and (max-width: 950px) {
+    min-height: 420rem;
+  }
+
+  @media only screen and (max-width: 950px) {
+    min-height: 420rem;
+  }
+
+  @media only screen and (max-width: 662px) {
+    min-height: 700rem;
+  }
 }
 
 .category-menu {
@@ -40,6 +68,14 @@
     color: $color-white;
     margin-bottom: 2rem;
     margin-right: 2rem;
+
+    @media only screen and (max-width: 1600px) {
+      margin-right: 5rem;
+    }
+
+    @media only screen and (max-width: 1398px) {
+      margin-right: 3.5rem;
+    }
   }
 }
 

@@ -9,8 +9,6 @@ import MenuIcon from "./images/icon_menu.svg";
 import LeafIcon from "./images/icon_leaf.svg";
 
 // png images
-import product1 from "./images/product1.png";
-import product1Large from "./images/product1@2x.png";
 import discount1 from "./images/discount1.png";
 import discount1Large from "./images/discount1@2x.png";
 import discount2 from "./images/discount2.png";
@@ -22,79 +20,7 @@ import phoneImageLarge from "./images/our_apps@2x.png";
 import code from "./images/qrcode.png";
 import codeLarge from "./images/qrcode@2x.png";
 
-const products = [
-  {
-    imageX: product1,
-    image2X: product1Large,
-    name: "Z6 Akıllı Saat Kameralı Konuşma Garantili Sim Kartlı Bluetooth",
-    freeDelivery: true,
-    price: "399,90",
-  },
-  {
-    imageX: product1,
-    image2X: product1Large,
-    name: "Calvin Klein Euphoria EDP 100 ml Kadın Parfüm",
-    freeDelivery: false,
-    price: "145,61",
-  },
-  {
-    imageX: product1,
-    image2X: product1Large,
-    name: "Gold Çizgili Vazoda 2 Dal Orkide Çiçeği",
-    freeDelivery: true,
-    price: "249,90",
-  },
-  {
-    imageX: product1,
-    image2X: product1Large,
-    name: "925 Ayar Gümüş Çeyreklik Bileklik (Y)",
-    freeDelivery: false,
-    price: "329,90",
-  },
-  {
-    imageX: product1,
-    image2X: product1Large,
-    name:
-      "Sailor SD-3160 Siyah Dağcı Seyehat Sırt Çantası 55 LT Outdoor-Trekking",
-    freeDelivery: true,
-    price: "499,90",
-  },
-  {
-    imageX: product1,
-    image2X: product1Large,
-    name: "Büyük Boy Metal Osmanlı Bizans Satranç Takımı Parlak ve Cev..",
-    freeDelivery: true,
-    price: "19,90",
-  },
-  {
-    imageX: product1,
-    image2X: product1Large,
-    name: "130 Cm Papyonlu Büyük Ayıcı (%100 Yerli)",
-    freeDelivery: true,
-    price: "89,90",
-  },
-  {
-    imageX: product1,
-    image2X: product1Large,
-    name: "925 Ayar Gümüş Dualı İsimli Nazar İgnesi",
-    freeDelivery: true,
-    price: "29,90",
-  },
-  {
-    imageX: product1,
-    image2X: product1Large,
-    name: "Özel Tatlar Çikolata Kutusu 300 gr",
-    freeDelivery: true,
-    price: "59,90",
-  },
-  {
-    imageX: product1,
-    image2X: product1Large,
-    name: "Kucak Dolusu Aşk 25 Kırmızı Gül Buketi",
-    freeDelivery: false,
-    price: "199,90",
-  },
-];
+import { products } from "./products";
 
 const App = () => {
   return (

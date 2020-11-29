@@ -11,5 +11,13 @@
     font: $font-8;
     color: $color-white;
     margin-left: 20rem;
+
+    @media only screen and (max-width: 1771px) {
+      margin-left: 15rem;
+    }
+
+    @media only screen and (max-width: 1674px) {
+      margin-left: 10rem;
+    }
   }
 }
